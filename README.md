@@ -2,6 +2,44 @@
 
 This API provides endpoints to manage room types and rooms in a hotel.
 
+## Dependencies
+
+Before running the Hotel Management API, ensure you have the following dependencies installed:
+
+1. **Node.js**: 
+   - Download and install Node.js from the [official website](https://nodejs.org/).
+
+2. **Express.js**: 
+   - Express.js is a web application framework for Node.js.
+   - Install it using npm:
+     ```bash
+     npm install express
+     ```
+
+3. **Mongoose**: 
+   - Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.
+   - Install it using npm:
+     ```bash
+     npm install mongoose
+     ```
+
+4. **Body-parser**: 
+   - Body-parser is a middleware to parse incoming request bodies in a middleware before your handlers.
+   - Install it using npm:
+     ```bash
+     npm install body-parser
+     ```
+
+5. **MongoDB**: 
+   - MongoDB is a NoSQL database.
+   - Download and install MongoDB from the [official website](https://www.mongodb.com/).
+
+Make sure all dependencies are properly installed before running the Hotel Management API.
+
+## How to Use CURL to Interact with API Endpoints
+
+Before using CURL to interact with the API endpoints, ensure that the API server is running and accessible at `http://localhost:3000` or the appropriate URL where the server is hosted.
+
 ## Endpoints
 
 ### GET {localhost}/api/v1/room-types
